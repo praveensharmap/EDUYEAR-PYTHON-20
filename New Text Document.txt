@@ -1,0 +1,48 @@
+name = 'praveen'
+age = 20
+salary = 25000.45
+
+print("my name is ",name,".I'm of ",age,"yeear old.")
+print("my name is " + name + ".")
+print("my name is {}. I'm of {} year old.".format(name , age))
+print("my name is {name}. I'm of {age} year old.")
+
+true = 10
+ismarried = True
+print(ismarried)
+
+true =10
+ismarried = False
+print (ismarried)
+
+i = '10'
+print(i)
+
+a = 7 
+b = 9
+
+print(type(7 + 9j))
+
+print(type(a + b))
+
+name = 'praveen sharma'
+age = 20
+salary = 70000.99
+
+print(type(name))
+
+print(name, age, salary)
+
+print('age')
+
+print(type(salary))
+
+print (type(age))
+
+value = 7 + 5 == 10
+
+print(value)
+
+value = 7 + 5 == 12
+
+print(value)
