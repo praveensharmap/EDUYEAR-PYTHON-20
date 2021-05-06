@@ -1,0 +1,48 @@
+# age calculator input
+
+y = 1990 
+a = 2021
+
+print("age = {}".format(a - y))
+
+# values and addresses
+
+a = [1,2,3]
+b = [1,2,3]
+
+print(id(a))
+print(id(b))
+
+print(a == b)
+
+print(a is b)
+
+print(a != b)
+
+print(a is not b)
+
+a = 10
+b = 10
+ 
+print(a is not b)
+
+print(a != b)
+
+# addition, subtraction, multiplication and floor division, decimal division,
+
+p = 25
+s = 5
+
+print("p + s = {}".format(p + s))
+
+print("p - s = {}".format(p - s))
+
+print("p * s = {}".format(p * s))
+
+print("p ** s = {}".format(p ** s))
+
+print("p / s = {}".format(p / s))
+
+print("p // s = {}".format(p // s))
+
+print("p % s = {}".format(p % s))
