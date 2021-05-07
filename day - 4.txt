@@ -1,0 +1,27 @@
+string = ("python.py:")
+
+c = input("Enter character to check frequency:")
+
+count = 0
+for i in string:
+    if i == c:
+        count+=1
+
+print(c, "occurs",count, "Time(s).")   
+
+
+
+# take input of a string and print it's even indexed characters
+
+str = input("Enter the word")
+
+print(str[::2]) 
+
+
+
+#create a program to swap case. Using string functions
+
+st = 'EdUyEaR'
+
+print(st.swapcase())
+    
